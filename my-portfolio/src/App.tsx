@@ -12,7 +12,7 @@ function App() {
           {/* Profile picture goes here */}
         </div>
         
-        <h1>Get started</h1>
+        <h1>Carlos Aguilar</h1>
       </section>
 
       <div className="ticks"></div>
