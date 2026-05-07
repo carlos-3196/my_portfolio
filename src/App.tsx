@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <section id="header">
-        <div className='summary-block'>
+      <section id="header" className='flex gap-25'>
+        <div className='text-left'>
           Hi, I'm
           <h1>Carlos Aguilar</h1>
           <div>
@@ -25,8 +25,6 @@ function App() {
           <img src={profilePic} alt='Profile Picture' />
         </div>
       </section>
-
-      <div className="ticks"></div>
 
       <section id="next-steps">
         <div id="docs">
