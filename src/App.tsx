@@ -70,7 +70,7 @@ function App() {
       <hr />
 
       <section id="experience">
-        <div className='flex flex-col md:flex-row justify-center items-center md:justify-between text-white pl-15 pr-15'>
+        <div className='flex flex-col md:flex-row justify-center items-center md:justify-between text-white px-6 md:px-16'>
           EXPERIENCE
           <div>
             <div>
