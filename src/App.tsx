@@ -9,11 +9,16 @@ function App() {
   return (
     <>
       <section id="header">
-        <div>
+        <div className='summary-block'>
+          Hi, I'm
           <h1>Carlos Aguilar</h1>
-          <div className='summary-block'>
-            Results-driven Software Developer with a strong background in UI/UX development, 
-            web design, and full-stack application development
+          <div>
+            Results-driven Software Developer with a strong background in UI/UX development, web design, 
+            and full-stack application development. Over 4 years of experience delivering scalable, 
+            user-focused solutions as a frontend and full-stack developer. Core strengths include React and Typescript, 
+            with a passion for crafting intuitive interfaces and bringing design concepts to life through clean, maintainable code. 
+            Experience in leading projects end-to-end, collaborating with cross-functional teams,
+            and driving technical decisions to deliver high-quality products on time.
           </div>
         </div>
         <div className="hero">
