@@ -12,7 +12,10 @@ function App() {
   return (
     <div className='min-h-screen flex flex-col'>
 
-      {/* Menu will contain resume and quick access to the contact section */}
+      {/* Menu section
+      * - resume download link
+      * - quick access to different portfolio sections
+      */}
       <section id="menu"
         className='flex justify-between items-center mb-10 px-6 md:px-16 py-6 text-white'
       >
@@ -32,7 +35,10 @@ function App() {
         </div>
       </section>
 
-      {/* Header contains a summary of info on myself and a profile picture */}
+      {/* Header section
+      * - professional summary
+      * - profile picture
+      */}
       <section id="header"
         className="flex flex-col md:flex-row items-center justify-between gap-5 px-6 md:px-16 text-white"
       >
@@ -69,15 +75,50 @@ function App() {
 
       <hr />
 
-      <section id="experience">
-        <div className='flex flex-col md:flex-row justify-center items-center md:justify-between text-white px-6 md:px-16'>
-          EXPERIENCE
+      {/* Experience section
+      * - all current and past professional experience
+      */}
+      <section id="experience"
+        className='text-white px-6 md:px-10'
+      >
+        <div className='flex flex-col items-center md:items-start mb-5'>
+          <p className='text-xl'>EXPERIENCE</p>
+        </div>
+        <div className='exp-list'>
           <div>
             <div>
-              
+              <p className='text-xl'>Web Developer</p>
+              <p className='text-xs text-blue-600'>TMAC South Texas at UTRGV</p>
+              <br />
+              <ul>
+                Maintained, updated, and troubleshot the company website: www.utrgv.edu/tmac
+                Managed website content and functionality using Cascade Server CMS
+                Designed and developed the TMAC mobile application to support client needs and improve accessibility
+                Utilized Android Studio for mobile application development and testing
+                Provided technical support by diagnosing and resolving computer and network-related issues
+                Worked with technologies including JavaScript, HTML, CSS, Android Studio, Cascade Server, and Microsoft Office
+              </ul>
             </div>
             <div>
-
+              <p>Jul '17 - Dec '19</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p className='text-xl'>Software Developer (Remote)</p>
+              <p className='text-xs text-blue-600'>Atos</p>
+            </div>
+            <div>
+              <p>Nov '21 - May '23</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p className='text-xl'>Software Developer (Remote)</p>
+              <p className='text-xs text-blue-600'>Protrans Inernational</p>
+            </div>
+            <div>
+              <p>May '23 - Feb '26</p>
             </div>
           </div>
         </div>
@@ -85,7 +126,10 @@ function App() {
 
       <hr />
 
-      {/* Contact section contains all links to my socials */}
+      {/* Contact section 
+      * - links to socials
+      * - email delivery
+      */}
       <section id="contact"
         className='w-full flex flex-col md:flex-row justify-center items-center gap-5'
       >

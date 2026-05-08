@@ -1,3 +1,4 @@
+/* Contact section */
 #contact {
   color: white;
   
@@ -11,6 +12,14 @@
    svg {
     margin-right: 5px;
    }
+  }
+}
+
+/* Experience section */
+#experience {
+  .exp-list > div {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
