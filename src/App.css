@@ -21,6 +21,10 @@
     display: flex;
     justify-content: space-between;
   }
+  
+  ul {
+    margin: 0px;
+  }
 }
 
 hr {

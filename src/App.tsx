@@ -90,19 +90,19 @@ function App() {
               <p className='text-xl'>Web Developer</p>
               <p className='text-xs text-blue-600'>TMAC South Texas at UTRGV</p>
               <br />
-              <ul>
-                Maintained, updated, and troubleshot the company website: www.utrgv.edu/tmac
-                Managed website content and functionality using Cascade Server CMS
-                Designed and developed the TMAC mobile application to support client needs and improve accessibility
-                Utilized Android Studio for mobile application development and testing
-                Provided technical support by diagnosing and resolving computer and network-related issues
-                Worked with technologies including JavaScript, HTML, CSS, Android Studio, Cascade Server, and Microsoft Office
-              </ul>
             </div>
             <div>
               <p>Jul '17 - Dec '19</p>
             </div>
           </div>
+          <ul className='text-xs'>
+            <li>Maintained, updated, and troubleshot the company website: www.utrgv.edu/tmac</li>
+            <li>Managed website content and functionality using Cascade Server CMS</li>
+            <li>Designed and developed the TMAC mobile application to support client needs and improve accessibility</li>
+            <li>Utilized Android Studio for mobile application development and testing</li>
+            <li>Provided technical support by diagnosing and resolving computer and network-related issues</li>
+            <li>Worked with technologies including JavaScript, HTML, CSS, Android Studio, Cascade Server, and Microsoft Office</li>
+          </ul>
           <div>
             <div>
               <p className='text-xl'>Software Developer (Remote)</p>
